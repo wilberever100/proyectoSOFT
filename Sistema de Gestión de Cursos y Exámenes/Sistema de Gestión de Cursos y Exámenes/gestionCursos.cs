@@ -185,6 +185,14 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form back= new menuDirector();
+            back.ShowDialog();
+            this.Close();
+        }
     }
     public class Curso
     {
