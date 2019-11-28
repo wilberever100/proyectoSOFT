@@ -53,7 +53,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
                 q.curso.nombre = CURSO.Text;
                 q.pregunta = PREGUNTA.Text;
             }
-            if (DESARROLLO.Checked == true || CONCRETA.Checked == true) { 
+            if (DESARROLLO.Checked == true || CONCRETA.Checked == true) {
                 
             }
         }
