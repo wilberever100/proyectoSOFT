@@ -174,17 +174,29 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             back.ShowDialog();
             this.Close();
         }
+
+        private void gestionProfesores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Profesor
     {
-        
         public string usuario,contraseña;
         public List<Curso> cursos;
-        public List<Curso> grupos;
+        public List<Grupo> grupos;
         public string nombre, apellido;
         public int DNI;
+<<<<<<< HEAD
 
-
+        public bool CrearUnidadTematica(int indexCurso, string name)
+        {
+            var nuevaUT = new unidad_tematica(name);
+            cursos[indexCurso].añadirUnidadTematica(nuevaUT);
+            return true;
+        }
+=======
+>>>>>>> 6fa0fdbacc932477e03efb3c54de05d183cee6ed
     }
 }

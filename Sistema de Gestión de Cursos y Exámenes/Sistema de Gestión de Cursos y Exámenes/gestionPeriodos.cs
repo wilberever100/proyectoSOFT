@@ -86,11 +86,18 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             refreshPeriodos();
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cb6c892b3569e9080be081dc296a036c1b61b4c
         private void nuevoPeriodo_TextChanged(object sender, EventArgs e)
         {
-
         }
+
+<<<<<<< HEAD
+        }
+=======
+>>>>>>> 8cb6c892b3569e9080be081dc296a036c1b61b4c
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();

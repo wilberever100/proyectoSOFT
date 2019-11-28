@@ -16,5 +16,15 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
             InitializeComponent();
         }
+
+        private void examenesDisp_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void examenesDisponibles_Load(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
