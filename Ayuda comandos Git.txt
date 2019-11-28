@@ -1,0 +1,28 @@
+(en los comandos no se pone $ )
+
+
+DESCARGAR PROYECTO
+1. Instalar Git
+2. Crear una carpeta donde sea
+3. Click derecho Abrir Git Bash aqui
+	$ git clone https://github.com/elespantosoterry/SoftwareI-Proyecto.git
+	$ cd SoftwareI-Proyecto
+
+SUBIR SU PARTE O AVANCE
+6. Guardar backup de lo avanzado
+7. Commitear en el git
+	(verificar que en el shell estamos en la carpeta)
+	$ git status
+	$ git add *
+	$ git commit -m commit
+	$ git push -u origin master
+	(pedira correo y contraseña)
+	#### verificar que no haya salido error
+
+ACTUALIZAR ARCHIVOS ( osea actualizar los avances commiteados por los demas)
+1. Cerrar Visual
+	$ git pull
+
+(si sale algun error avisar)
+(no olviden hacer bakcups se sus avances, por si el git nos falla :C )
+
