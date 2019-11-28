@@ -148,10 +148,13 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             Profesor nuevo = new Profesor();
             nuevo.nombre = textBox1.Text;
             nuevo.apellido = textBox2.Text;
+            //nuevo.DNI = Int32.Parse(textBox3.Text);
             nuevo.DNI = Int32.Parse(textBox3.Text);
             nuevo.usuario = textBox4.Text;
             nuevo.contraseña = textBox5.Text;
+
             BD.PROFESOR_GLOBAL.Add(nuevo);
+
             textBox1.Text=string.Empty;
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
@@ -159,6 +162,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             textBox5.Text = string.Empty;
 
             agregarDatosBT.Enabled = false;
+
             MessageBox.Show("Creado exitosamente");
 
         }
@@ -170,17 +174,19 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             back.ShowDialog();
             this.Close();
         }
+
+        private void gestionProfesores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Profesor
     {
-        
         public string usuario,contraseña;
         public List<Curso> cursos;
         public List<Curso> grupos;
         public string nombre, apellido;
         public int DNI;
-
-
     }
 }

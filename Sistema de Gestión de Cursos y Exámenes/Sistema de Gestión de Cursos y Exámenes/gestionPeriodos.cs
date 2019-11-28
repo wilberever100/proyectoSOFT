@@ -86,6 +86,10 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             refreshPeriodos();
         }
 
+        private void nuevoPeriodo_TextChanged(object sender, EventArgs e)
+        {
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();

@@ -16,5 +16,10 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
             InitializeComponent();
         }
+
+        private void rendirExamen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

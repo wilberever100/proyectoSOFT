@@ -33,6 +33,10 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         private void button1_Click(object sender, EventArgs e)
         {
             List<Profesor> Profesores = new List<Profesor>();
+            Profesor p = new Profesor();
+            p.usuario = "profesor";
+            p.contraseña = "profesor";
+            BD.g_PROFESOR_GLOBAL.Add(p);
             Profesores = BD.g_PROFESOR_GLOBAL;
 
             List<string> Directores = new List<string>();
@@ -45,7 +49,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
             if (tipo == "Director")
             {
-                for(int i=0; i<Directores.Capacity-1; i++)
+                for(int i=0; i<Directores.Count; i++)
                 {
                     if(textBox1.Text==Directores[i] && textBox2.Text == Directores[i])
                     {
@@ -68,7 +72,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
             else if (tipo == "Profesor")
             {
-                for (int i = 0; i < Profesores.Capacity-1; i++)
+                for (int i = 0; i < Profesores.Count; i++)
                 {
                     if (textBox1.Text == Profesores[i].usuario && textBox2.Text == Profesores[i].contraseña)
                     {
