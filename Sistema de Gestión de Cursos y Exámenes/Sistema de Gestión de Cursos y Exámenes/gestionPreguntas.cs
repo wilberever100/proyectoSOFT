@@ -16,5 +16,9 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
     }
 }
