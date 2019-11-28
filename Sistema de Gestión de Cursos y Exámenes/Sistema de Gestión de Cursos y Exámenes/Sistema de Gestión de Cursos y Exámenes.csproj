@@ -214,6 +214,15 @@
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="menuAlumno.resx">
+      <DependentUpon>menuAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuDirector.resx">
+      <DependentUpon>menuDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuProfesor.resx">
+      <DependentUpon>menuProfesor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

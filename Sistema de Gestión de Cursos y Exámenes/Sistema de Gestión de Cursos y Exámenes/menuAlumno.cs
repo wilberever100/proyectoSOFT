@@ -16,5 +16,32 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            verNotas vN = new verNotas();
+            vN.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            rendirExamen rE = new rendirExamen();
+            rE.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login l = new login();
+            l.Show();
+
+        }
+
+        private void menuAlumno_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
