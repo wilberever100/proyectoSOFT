@@ -91,7 +91,16 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         {
 
         }
-
+        public void refreshItemsEliminado()
+        {
+            cursoEliminado.Items.Clear();
+            for (int i = 0; i < BD.CURSO_GLOBAL.Count; i++)
+            {
+                string nuevo = BD.CURSO_GLOBAL[i].nombre;
+                cursoEliminado.Items.Add(nuevo);
+            }
+            //cursoEliminado.SelectedIndex = 0;
+        }
         private void guardarNuevoCursoBT_Click(object sender, EventArgs e)
         {
 
@@ -102,7 +111,11 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             Curso foo = new Curso(nombre);
             BD.CURSO_GLOBAL.Add(foo);
             this.nuevoCurso.Text = string.Empty; //borra lo escrito
-            MessageBox.Show("Creado exitosamente"); 
+            MessageBox.Show("Creado exitosamente");
+
+
+            //PONIENDO EN ELIMINADO
+            refreshItemsEliminado();
         }
 
         private void asignarCursoBT_Click(object sender, EventArgs e)
@@ -115,6 +128,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         private void eliminarCursoBT_Click(object sender, EventArgs e)
         {
             BD.CURSO_GLOBAL.RemoveAt(cursoEliminado.SelectedIndex);
+            refreshItemsEliminado();
         }
         private void periodoAsignado_Loaded(object sender, EventArgs e)
         {
@@ -148,12 +162,13 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         }
         private void cursoEliminado_Loaded(object sender, EventArgs e)
         {
+            cursoEliminado.Items.Clear();
             for (int i = 0; i < BD.CURSO_GLOBAL.Count; i++)
             {
                 string nuevo = BD.CURSO_GLOBAL[i].nombre;
                 cursoEliminado.Items.Add(nuevo);
             }
-            cursoEliminado.SelectedIndex = 0;
+            //cursoEliminado.SelectedIndex = 0;
 
         }
         private void periodoAsignado_SelectedIndexChanged(object sender, EventArgs e)

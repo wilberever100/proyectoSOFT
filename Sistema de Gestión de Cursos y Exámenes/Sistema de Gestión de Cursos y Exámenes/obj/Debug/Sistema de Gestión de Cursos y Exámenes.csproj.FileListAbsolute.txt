@@ -10,3 +10,15 @@ C:\Users\wilbe\OneDrive\Escritorio\SOFTWARE\SoftwareI-Proyecto\Sistema de Gesti�
 C:\Users\wilbe\OneDrive\Escritorio\SOFTWARE\SoftwareI-Proyecto\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.GenerateResource.cache
 C:\Users\wilbe\OneDrive\Escritorio\SOFTWARE\SoftwareI-Proyecto\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
 C:\Users\wilbe\OneDrive\Escritorio\SOFTWARE\SoftwareI-Proyecto\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe.config
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csprojAssemblyReference.cache
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionCursos.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPeriodos.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionProfesores.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.login.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.Properties.Resources.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.GenerateResource.cache
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
