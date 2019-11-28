@@ -39,3 +39,20 @@ C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y 
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
 >>>>>>> 7eedfc18a3c281c464248aae8f6bf9bb37036c3a
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe.config
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csprojAssemblyReference.cache
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.bancoPreguntas.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionCursos.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPeriodos.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPreguntas.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionProfesores.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.login.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuAlumno.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuDirector.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuProfesor.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.Properties.Resources.resources
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.GenerateResource.cache
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+D:\UCSP\CCOMP\2019-2\ING SOFTWARE 1\PFinal\proyecto\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
