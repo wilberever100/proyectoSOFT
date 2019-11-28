@@ -22,3 +22,5 @@ C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y 
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.GenerateResource.cache
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPreguntas.resources
+C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.CoreCompileInputs.cache

@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guardarNuevoCursoBT = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cursoAsignado = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.asignarCursoBT = new System.Windows.Forms.Button();
             this.grupoAsignado = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -48,8 +50,7 @@
             this.cursoEliminado = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cursoAsignado = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -141,6 +142,28 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(376, 584);
             this.panel2.TabIndex = 2;
+            // 
+            // cursoAsignado
+            // 
+            this.cursoAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.cursoAsignado.FormattingEnabled = true;
+            this.cursoAsignado.Location = new System.Drawing.Point(21, 365);
+            this.cursoAsignado.Name = "cursoAsignado";
+            this.cursoAsignado.Size = new System.Drawing.Size(329, 33);
+            this.cursoAsignado.TabIndex = 19;
+            this.cursoAsignado.SelectedIndexChanged += new System.EventHandler(this.cursoAsignado_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(16, 337);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 25);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Curso";
             // 
             // asignarCursoBT
             // 
@@ -293,33 +316,23 @@
             this.label3.Text = "Eliminar Curso";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // cursoAsignado
+            // button1
             // 
-            this.cursoAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.cursoAsignado.FormattingEnabled = true;
-            this.cursoAsignado.Location = new System.Drawing.Point(21, 365);
-            this.cursoAsignado.Name = "cursoAsignado";
-            this.cursoAsignado.Size = new System.Drawing.Size(329, 33);
-            this.cursoAsignado.TabIndex = 19;
-            this.cursoAsignado.SelectedIndexChanged += new System.EventHandler(this.cursoAsignado_SelectedIndexChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(16, 337);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 25);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Curso";
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.button1.Location = new System.Drawing.Point(411, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Retroceder";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // gestionCursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -361,5 +374,6 @@
         private System.Windows.Forms.Button eliminarCursoBT;
         private System.Windows.Forms.ComboBox cursoAsignado;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
     }
 }

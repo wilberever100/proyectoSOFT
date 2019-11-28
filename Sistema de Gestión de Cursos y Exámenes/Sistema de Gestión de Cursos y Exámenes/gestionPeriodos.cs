@@ -85,6 +85,14 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             BD.PERIODO_ACADEMICO_GLOBAL.RemoveAt(periodoEliminado.SelectedIndex);
             refreshPeriodos();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form back = new menuDirector();
+            back.ShowDialog();
+            this.Close();
+        }
     }
     public class Periodo_Academico
     {
