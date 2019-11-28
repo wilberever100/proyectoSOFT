@@ -76,6 +76,7 @@
             this.nuevoPeriodo.Name = "nuevoPeriodo";
             this.nuevoPeriodo.Size = new System.Drawing.Size(329, 30);
             this.nuevoPeriodo.TabIndex = 23;
+            this.nuevoPeriodo.TextChanged += new System.EventHandler(this.nuevoPeriodo_TextChanged);
             // 
             // label3
             // 
