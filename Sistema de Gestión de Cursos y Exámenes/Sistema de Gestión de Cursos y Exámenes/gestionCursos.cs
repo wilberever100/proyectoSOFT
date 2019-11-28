@@ -174,6 +174,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
     public class Curso
     {
         public string nombre;
+        public List<Grupo> Grupos;
         public List<unidad_tematica> unidadesTematicas;
 
 
@@ -199,18 +200,89 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             return true;
         }
 
+        public bool añadirUnidadTematica(unidad_tematica ut)
+        {
+            unidadesTematicas.Add(ut);
+            return true;
+        }
+
     }
 
     public class Grupo
     {
+        public int id;
         public Profesor encargado;
         public Curso curso;
         public Periodo_Academico periodo;
         public string identificador;
+        public int cupos;
+        public List<Alumno> Alumnos;
+
+        public Grupo(int num_cupos)
+        {
+            this.cupos = num_cupos;
+        }
+        ~Grupo()
+        {
+
+        }
+
+        public bool añadirProfesor(Profesor profe)
+        {
+            encargado = profe;
+            return true;
+        }
+
+        public bool añadirAlumno(int idAlumno)
+        {
+            BD.ALUMNO_GLOBAL[idAlumno].añadirGrupo(id);
+            Alumnos.Add(BD.ALUMNO_GLOBAL[idAlumno]);
+            return true;
+        }
+
+        public bool retirarAlumno(int idAlumno)
+        {
+            if (!BD.ALUMNO_GLOBAL[idAlumno].retirarGrupo(id))
+                return false;
+            Alumnos.Remove(BD.ALUMNO_GLOBAL[idAlumno]);
+            return true;
+        }
 
     }
+
     public class unidad_tematica
     {
+        public string nombre;
+        public List<string> Objetivos;
+        public List<string> Contenido;
 
+        public unidad_tematica(string name)
+        {
+            this.nombre = name;
+        }
+
+        public bool añadirObj(string nuevo)
+        {
+            Objetivos.Add(nuevo);
+            return true;
+        }
+
+        public bool añadirCon(string nuevo)
+        {
+            Contenido.Add(nuevo);
+            return true;
+        }
+
+        public bool eliminarObj(int index)
+        {
+            Objetivos.Remove(Objetivos[index]);
+            return true;
+        }
+
+        public bool eliminarCon(int index)
+        {
+            Contenido.Remove(Contenido[index]);
+            return true;
+        }
     }
 }

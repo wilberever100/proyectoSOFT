@@ -155,10 +155,15 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         
         public string usuario,contraseña;
         public List<Curso> cursos;
-        public List<Curso> grupos;
+        public List<Grupo> grupos;
         public string nombre, apellido;
         public int DNI;
 
-
+        public bool CrearUnidadTematica(int indexCurso, string name)
+        {
+            var nuevaUT = new unidad_tematica(name);
+            cursos[indexCurso].añadirUnidadTematica(nuevaUT);
+            return true;
+        }
     }
 }

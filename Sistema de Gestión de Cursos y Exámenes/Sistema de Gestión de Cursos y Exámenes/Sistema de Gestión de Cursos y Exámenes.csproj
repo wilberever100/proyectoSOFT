@@ -199,8 +199,14 @@
     <Compile Include="visualizarExamen.Designer.cs">
       <DependentUpon>visualizarExamen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="gestionAlumnos.resx">
+      <DependentUpon>gestionAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gestionCursos.resx">
       <DependentUpon>gestionCursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionGrupos.resx">
+      <DependentUpon>gestionGrupos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gestionPeriodos.resx">
       <DependentUpon>gestionPeriodos.cs</DependentUpon>
@@ -210,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="gestionProfesores.resx">
       <DependentUpon>gestionProfesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionUnidadesTematicas.resx">
+      <DependentUpon>gestionUnidadesTematicas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
