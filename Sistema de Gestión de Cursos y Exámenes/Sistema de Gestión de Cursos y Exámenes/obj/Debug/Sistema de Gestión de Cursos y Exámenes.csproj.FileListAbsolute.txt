@@ -39,5 +39,25 @@ C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y 
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
 C:\Users\wilbe\OneDrive\Escritorio\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
 >>>>>>> 7eedfc18a3c281c464248aae8f6bf9bb37036c3a
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe.config
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\bin\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionCursos.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPeriodos.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionPreguntas.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.gestionProfesores.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.login.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuAlumno.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuDirector.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuProfesor.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.csproj.GenerateResource.cache
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.exe
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema de Gestión de Cursos y Exámenes.pdb
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.programarExamen.resources
 C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuDirector.resources
 C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuProfesor.resources
+>>>>>>> 70d760cefc676839b524ebceafefcc9e622661d0
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.examenesDisponibles.resources
+C:\Users\USUARIO\Desktop\Software I\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Debug\Sistema_de_Gestión_de_Cursos_y_Exámenes.rendirExamen.resources
