@@ -86,9 +86,18 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             refreshPeriodos();
         }
 
+<<<<<<< HEAD
         private void nuevoPeriodo_TextChanged(object sender, EventArgs e)
         {
 
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form back = new menuDirector();
+            back.ShowDialog();
+            this.Close();
+>>>>>>> 70d760cefc676839b524ebceafefcc9e622661d0
         }
     }
     public class Periodo_Academico

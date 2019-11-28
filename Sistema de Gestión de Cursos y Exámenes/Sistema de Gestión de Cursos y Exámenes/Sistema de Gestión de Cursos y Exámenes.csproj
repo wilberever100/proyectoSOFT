@@ -71,6 +71,12 @@
     <Compile Include="ejecucionExamen.Designer.cs">
       <DependentUpon>ejecucionExamen.cs</DependentUpon>
     </Compile>
+    <Compile Include="examenesDisponibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="examenesDisponibles.Designer.cs">
+      <DependentUpon>examenesDisponibles.cs</DependentUpon>
+    </Compile>
     <Compile Include="examenVirtuak.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +205,9 @@
     <Compile Include="visualizarExamen.Designer.cs">
       <DependentUpon>visualizarExamen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="examenesDisponibles.resx">
+      <DependentUpon>examenesDisponibles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gestionCursos.resx">
       <DependentUpon>gestionCursos.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +244,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="rendirExamen.resx">
+      <DependentUpon>rendirExamen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

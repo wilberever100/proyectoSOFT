@@ -79,7 +79,7 @@
             // 
             this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox1.Location = new System.Drawing.Point(23, 138);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(475, 78);
@@ -101,7 +101,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(23, 296);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(158, 21);
             this.radioButton1.TabIndex = 4;
@@ -275,11 +275,11 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(604, 702);
+            this.button5.Location = new System.Drawing.Point(635, 22);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(197, 35);
             this.button5.TabIndex = 21;
-            this.button5.Text = "Volver al menu principal";
+            this.button5.Text = "Retroceder";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // gestionPreguntas
@@ -310,7 +310,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "gestionPreguntas";
             this.Text = "gestionPreguntas";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
