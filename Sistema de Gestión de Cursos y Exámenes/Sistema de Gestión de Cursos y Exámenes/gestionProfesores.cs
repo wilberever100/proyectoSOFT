@@ -117,14 +117,15 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         private void mostrarProfes_Click(object sender, EventArgs e)
         {
             tablaProfesores.Rows.Clear();
-            DataGridViewRow row = (DataGridViewRow)tablaProfesores.Rows[0].Clone();
             
             
-            tablaProfesores.Rows.Add(row);
+            
+            //tablaProfesores.Rows.Add(row);
 
             for (int i = 0; i < BD.PROFESOR_GLOBAL.Count; i++)
             {
-                row.Cells["Column1"].Value = BD.PROFESOR_GLOBAL[i].nombre;
+                DataGridViewRow row = (DataGridViewRow)tablaProfesores.Rows[0].Clone();
+                row.Cells[0].Value = BD.PROFESOR_GLOBAL[i].nombre;
                 tablaProfesores.Rows.Add(row);
             }
 
@@ -134,6 +135,11 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
         private void agregarProfes_Click(object sender, EventArgs e)
         {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+            textBox4.Text = string.Empty;
+            textBox5.Text = string.Empty;
             agregarDatosBT.Enabled = true;
         }
 
@@ -142,22 +148,47 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             Profesor nuevo = new Profesor();
             nuevo.nombre = textBox1.Text;
             nuevo.apellido = textBox2.Text;
+            //nuevo.DNI = Int32.Parse(textBox3.Text);
             nuevo.DNI = Int32.Parse(textBox3.Text);
             nuevo.usuario = textBox4.Text;
             nuevo.contraseña = textBox5.Text;
+
             BD.PROFESOR_GLOBAL.Add(nuevo);
+
+            textBox1.Text=string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+            textBox4.Text = string.Empty;
+            textBox5.Text = string.Empty;
+
+            agregarDatosBT.Enabled = false;
+
+            MessageBox.Show("Creado exitosamente");
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form back = new menuDirector();
+            back.ShowDialog();
+            this.Close();
+        }
+
+        private void gestionProfesores_Load(object sender, EventArgs e)
+        {
 
         }
     }
 
     public class Profesor
     {
-        
         public string usuario,contraseña;
         public List<Curso> cursos;
         public List<Grupo> grupos;
         public string nombre, apellido;
         public int DNI;
+<<<<<<< HEAD
 
         public bool CrearUnidadTematica(int indexCurso, string name)
         {
@@ -165,5 +196,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
             cursos[indexCurso].añadirUnidadTematica(nuevaUT);
             return true;
         }
+=======
+>>>>>>> 6fa0fdbacc932477e03efb3c54de05d183cee6ed
     }
 }

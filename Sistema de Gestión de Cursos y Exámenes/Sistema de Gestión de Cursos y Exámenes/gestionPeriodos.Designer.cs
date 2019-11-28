@@ -40,6 +40,8 @@
             this.periodoEliminado = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.titulo = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +55,7 @@
             this.panel2.Controls.Add(this.calendarPeriodo);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(60, 36);
+            this.panel2.Location = new System.Drawing.Point(48, 80);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(445, 567);
             this.panel2.TabIndex = 4;
@@ -76,6 +78,7 @@
             this.nuevoPeriodo.Name = "nuevoPeriodo";
             this.nuevoPeriodo.Size = new System.Drawing.Size(329, 30);
             this.nuevoPeriodo.TabIndex = 23;
+            this.nuevoPeriodo.TextChanged += new System.EventHandler(this.nuevoPeriodo_TextChanged);
             // 
             // label3
             // 
@@ -93,6 +96,7 @@
             // calendarPeriodo
             // 
             this.calendarPeriodo.Location = new System.Drawing.Point(162, 77);
+            this.calendarPeriodo.MaxSelectionCount = 365;
             this.calendarPeriodo.Name = "calendarPeriodo";
             this.calendarPeriodo.TabIndex = 20;
             // 
@@ -128,7 +132,7 @@
             this.panel3.Controls.Add(this.periodoEliminado);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(545, 36);
+            this.panel3.Location = new System.Drawing.Point(534, 80);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(376, 567);
             this.panel3.TabIndex = 5;
@@ -142,6 +146,7 @@
             this.cerrarPeriodoBT.TabIndex = 18;
             this.cerrarPeriodoBT.Text = "Guardar";
             this.cerrarPeriodoBT.UseVisualStyleBackColor = true;
+            this.cerrarPeriodoBT.Click += new System.EventHandler(this.cerrarPeriodoBT_Click);
             // 
             // periodoEliminado
             // 
@@ -178,12 +183,37 @@
             this.label4.Text = "Eliminar Periodo";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.button1.Location = new System.Drawing.Point(478, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Retroceder";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // titulo
+            // 
+            this.titulo.AutoSize = true;
+            this.titulo.BackColor = System.Drawing.Color.Transparent;
+            this.titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.titulo.ForeColor = System.Drawing.Color.Black;
+            this.titulo.Location = new System.Drawing.Point(40, 9);
+            this.titulo.Name = "titulo";
+            this.titulo.Size = new System.Drawing.Size(383, 46);
+            this.titulo.TabIndex = 23;
+            this.titulo.Text = "Gestión de Periodos";
+            // 
             // gestionPeriodos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
+            this.Controls.Add(this.titulo);
             this.Controls.Add(this.panel2);
             this.Name = "gestionPeriodos";
             this.Text = "gestionPeriodos";
@@ -192,6 +222,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -209,5 +240,7 @@
         private System.Windows.Forms.ComboBox periodoEliminado;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label titulo;
     }
 }

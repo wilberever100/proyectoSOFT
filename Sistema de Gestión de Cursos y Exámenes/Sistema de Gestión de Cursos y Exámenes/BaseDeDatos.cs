@@ -10,6 +10,8 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
     
     public static class BD
     {
+        public static List<Pregunta_COMPLETAR> g_BANCOpREGUNTAScompletar_GLOBAL = new List<Pregunta_COMPLETAR>();
+        public static List<Pregunta_OPCION> g_BANCOpREGUNTASopcion_GLOBAL = new List<Pregunta_OPCION>();
         public static List<Curso> g_CURSO_GLOBAL= new List<Curso>();
         public static List<Curso> CURSO_GLOBAL
         {
