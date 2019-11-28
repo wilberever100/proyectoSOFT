@@ -30,27 +30,35 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.PREGUNTA = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.DESARROLLO = new System.Windows.Forms.RadioButton();
+            this.CONCRETA = new System.Windows.Forms.RadioButton();
+            this.CHOICE = new System.Windows.Forms.RadioButton();
+            this.TRUEFALSE = new System.Windows.Forms.RadioButton();
+            this.PAIR = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.REGLONES = new System.Windows.Forms.NumericUpDown();
+            this.rptaCHOICE = new System.Windows.Forms.TextBox();
+            this.UPLOADW = new System.Windows.Forms.Button();
+            this.FALSO = new System.Windows.Forms.TextBox();
+            this.unoPAIR = new System.Windows.Forms.TextBox();
+            this.dosPAIR = new System.Windows.Forms.TextBox();
+            this.UPLOAD2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.DISPLAYPREGUNTA = new System.Windows.Forms.Label();
+            this.GENERALUPDATE = new System.Windows.Forms.Button();
+            this.SEE = new System.Windows.Forms.Button();
+            this.BACK = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.CURSO = new System.Windows.Forms.TextBox();
+            this.RPTAQ = new System.Windows.Forms.TextBox();
+            this.VERDADERO = new System.Windows.Forms.TextBox();
+            this.CORRECT = new System.Windows.Forms.TextBox();
+            this.UPLOADR = new System.Windows.Forms.Button();
+            this.UPLOADF = new System.Windows.Forms.Button();
+            this.UPLOADT = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.REGLONES)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,16 +83,16 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Coloque el planteamiento de la pregunta";
             // 
-            // textBox1
+            // PREGUNTA
             // 
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(23, 138);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(475, 78);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Cuerpo de la pregunta";
+            this.PREGUNTA.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.PREGUNTA.Location = new System.Drawing.Point(23, 138);
+            this.PREGUNTA.Margin = new System.Windows.Forms.Padding(4);
+            this.PREGUNTA.Multiline = true;
+            this.PREGUNTA.Name = "PREGUNTA";
+            this.PREGUNTA.Size = new System.Drawing.Size(475, 78);
+            this.PREGUNTA.TabIndex = 2;
+            this.PREGUNTA.Text = "Cuerpo de la pregunta";
             // 
             // label3
             // 
@@ -97,65 +105,65 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Seleccione el tipo de pregunta:";
             // 
-            // radioButton1
+            // DESARROLLO
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(23, 296);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(158, 21);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Escrita de Desarrollo";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.DESARROLLO.AutoSize = true;
+            this.DESARROLLO.Location = new System.Drawing.Point(23, 296);
+            this.DESARROLLO.Margin = new System.Windows.Forms.Padding(4);
+            this.DESARROLLO.Name = "DESARROLLO";
+            this.DESARROLLO.Size = new System.Drawing.Size(158, 21);
+            this.DESARROLLO.TabIndex = 4;
+            this.DESARROLLO.TabStop = true;
+            this.DESARROLLO.Text = "Escrita de Desarrollo";
+            this.DESARROLLO.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // CONCRETA
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(23, 325);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(222, 21);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Escrita de Respuesta Concreta";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.CONCRETA.AutoSize = true;
+            this.CONCRETA.Location = new System.Drawing.Point(23, 325);
+            this.CONCRETA.Margin = new System.Windows.Forms.Padding(4);
+            this.CONCRETA.Name = "CONCRETA";
+            this.CONCRETA.Size = new System.Drawing.Size(222, 21);
+            this.CONCRETA.TabIndex = 5;
+            this.CONCRETA.TabStop = true;
+            this.CONCRETA.Text = "Escrita de Respuesta Concreta";
+            this.CONCRETA.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // CHOICE
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(23, 354);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(145, 21);
-            this.radioButton3.TabIndex = 6;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Alternativa Multiple";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.CHOICE.AutoSize = true;
+            this.CHOICE.Location = new System.Drawing.Point(23, 354);
+            this.CHOICE.Margin = new System.Windows.Forms.Padding(4);
+            this.CHOICE.Name = "CHOICE";
+            this.CHOICE.Size = new System.Drawing.Size(145, 21);
+            this.CHOICE.TabIndex = 6;
+            this.CHOICE.TabStop = true;
+            this.CHOICE.Text = "Alternativa Multiple";
+            this.CHOICE.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // TRUEFALSE
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(23, 419);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(139, 21);
-            this.radioButton4.TabIndex = 7;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Verdadero / Falso";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.TRUEFALSE.AutoSize = true;
+            this.TRUEFALSE.Location = new System.Drawing.Point(23, 456);
+            this.TRUEFALSE.Margin = new System.Windows.Forms.Padding(4);
+            this.TRUEFALSE.Name = "TRUEFALSE";
+            this.TRUEFALSE.Size = new System.Drawing.Size(139, 21);
+            this.TRUEFALSE.TabIndex = 7;
+            this.TRUEFALSE.TabStop = true;
+            this.TRUEFALSE.Text = "Verdadero / Falso";
+            this.TRUEFALSE.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // PAIR
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(23, 479);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(128, 21);
-            this.radioButton5.TabIndex = 8;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Emparejamiento";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.PAIR.AutoSize = true;
+            this.PAIR.Location = new System.Drawing.Point(23, 554);
+            this.PAIR.Margin = new System.Windows.Forms.Padding(4);
+            this.PAIR.Name = "PAIR";
+            this.PAIR.Size = new System.Drawing.Size(128, 21);
+            this.PAIR.TabIndex = 8;
+            this.PAIR.TabStop = true;
+            this.PAIR.Text = "Emparejamiento";
+            this.PAIR.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -168,70 +176,72 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Cantidad de Reglones:";
             // 
-            // numericUpDown1
+            // REGLONES
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(385, 296);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(53, 23);
-            this.numericUpDown1.TabIndex = 10;
+            this.REGLONES.Location = new System.Drawing.Point(385, 296);
+            this.REGLONES.Name = "REGLONES";
+            this.REGLONES.Size = new System.Drawing.Size(53, 23);
+            this.REGLONES.TabIndex = 10;
             // 
-            // textBox2
+            // rptaCHOICE
             // 
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox2.Location = new System.Drawing.Point(39, 383);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 23);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "Escriba aqui la alternativa";
+            this.rptaCHOICE.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.rptaCHOICE.Location = new System.Drawing.Point(39, 383);
+            this.rptaCHOICE.Margin = new System.Windows.Forms.Padding(4);
+            this.rptaCHOICE.Name = "rptaCHOICE";
+            this.rptaCHOICE.Size = new System.Drawing.Size(240, 23);
+            this.rptaCHOICE.TabIndex = 11;
+            this.rptaCHOICE.Text = "Escriba aqui  cualquier alternativa";
             // 
-            // button1
+            // UPLOADW
             // 
-            this.button1.Location = new System.Drawing.Point(303, 383);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Subir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.UPLOADW.Location = new System.Drawing.Point(303, 383);
+            this.UPLOADW.Name = "UPLOADW";
+            this.UPLOADW.Size = new System.Drawing.Size(75, 23);
+            this.UPLOADW.TabIndex = 12;
+            this.UPLOADW.Text = "Subir";
+            this.UPLOADW.UseVisualStyleBackColor = true;
+            this.UPLOADW.Click += new System.EventHandler(this.UPLOADW_Click);
             // 
-            // textBox3
+            // FALSO
             // 
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox3.Location = new System.Drawing.Point(39, 448);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 23);
-            this.textBox3.TabIndex = 13;
-            this.textBox3.Text = "Escriba aqui la alternativa";
+            this.FALSO.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.FALSO.Location = new System.Drawing.Point(39, 523);
+            this.FALSO.Margin = new System.Windows.Forms.Padding(4);
+            this.FALSO.Name = "FALSO";
+            this.FALSO.Size = new System.Drawing.Size(240, 23);
+            this.FALSO.TabIndex = 13;
+            this.FALSO.Text = "Escriba aqui la alternativa falsa";
             // 
-            // textBox4
+            // unoPAIR
             // 
-            this.textBox4.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox4.Location = new System.Drawing.Point(39, 521);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(123, 23);
-            this.textBox4.TabIndex = 14;
-            this.textBox4.Text = "Preposicion";
+            this.unoPAIR.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.unoPAIR.Location = new System.Drawing.Point(39, 583);
+            this.unoPAIR.Margin = new System.Windows.Forms.Padding(4);
+            this.unoPAIR.Name = "unoPAIR";
+            this.unoPAIR.Size = new System.Drawing.Size(123, 23);
+            this.unoPAIR.TabIndex = 14;
+            this.unoPAIR.Text = "Preposicion";
             // 
-            // textBox5
+            // dosPAIR
             // 
-            this.textBox5.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox5.Location = new System.Drawing.Point(187, 521);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(123, 23);
-            this.textBox5.TabIndex = 15;
-            this.textBox5.Text = "Respuesta";
+            this.dosPAIR.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.dosPAIR.Location = new System.Drawing.Point(173, 583);
+            this.dosPAIR.Margin = new System.Windows.Forms.Padding(4);
+            this.dosPAIR.Name = "dosPAIR";
+            this.dosPAIR.Size = new System.Drawing.Size(123, 23);
+            this.dosPAIR.TabIndex = 15;
+            this.dosPAIR.Text = "Respuesta";
             // 
-            // button2
+            // UPLOAD2
             // 
-            this.button2.Location = new System.Drawing.Point(341, 521);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.UPLOAD2.Location = new System.Drawing.Point(328, 583);
+            this.UPLOAD2.Name = "UPLOAD2";
+            this.UPLOAD2.Size = new System.Drawing.Size(75, 23);
+            this.UPLOAD2.TabIndex = 16;
+            this.UPLOAD2.Text = "+";
+            this.UPLOAD2.UseVisualStyleBackColor = true;
+            this.UPLOAD2.Click += new System.EventHandler(this.UPLOAD2_Click);
             // 
             // label5
             // 
@@ -244,76 +254,167 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "La pregunta es:";
             // 
+            // DISPLAYPREGUNTA
+            // 
+            this.DISPLAYPREGUNTA.AutoSize = true;
+            this.DISPLAYPREGUNTA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DISPLAYPREGUNTA.Location = new System.Drawing.Point(655, 141);
+            this.DISPLAYPREGUNTA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DISPLAYPREGUNTA.Name = "DISPLAYPREGUNTA";
+            this.DISPLAYPREGUNTA.Size = new System.Drawing.Size(177, 17);
+            this.DISPLAYPREGUNTA.TabIndex = 18;
+            this.DISPLAYPREGUNTA.Text = "Informacion de la pregunta";
+            // 
+            // GENERALUPDATE
+            // 
+            this.GENERALUPDATE.Location = new System.Drawing.Point(658, 381);
+            this.GENERALUPDATE.Name = "GENERALUPDATE";
+            this.GENERALUPDATE.Size = new System.Drawing.Size(125, 96);
+            this.GENERALUPDATE.TabIndex = 19;
+            this.GENERALUPDATE.Text = "Guardar en Banco de Preguntas";
+            this.GENERALUPDATE.UseVisualStyleBackColor = true;
+            this.GENERALUPDATE.Click += new System.EventHandler(this.GENERALUPDATE_Click);
+            // 
+            // SEE
+            // 
+            this.SEE.Location = new System.Drawing.Point(860, 381);
+            this.SEE.Name = "SEE";
+            this.SEE.Size = new System.Drawing.Size(125, 96);
+            this.SEE.TabIndex = 20;
+            this.SEE.Text = "Ver Banco de Preguntas";
+            this.SEE.UseVisualStyleBackColor = true;
+            // 
+            // BACK
+            // 
+            this.BACK.Location = new System.Drawing.Point(635, 22);
+            this.BACK.Name = "BACK";
+            this.BACK.Size = new System.Drawing.Size(197, 35);
+            this.BACK.TabIndex = 21;
+            this.BACK.Text = "Retroceder";
+            this.BACK.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(655, 141);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(18, 622);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(177, 17);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Informacion de la pregunta";
+            this.label6.Size = new System.Drawing.Size(261, 25);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Coloque el nombre del curso";
             // 
-            // button3
+            // CURSO
             // 
-            this.button3.Location = new System.Drawing.Point(658, 381);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 96);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Guardar en Banco de Preguntas";
-            this.button3.UseVisualStyleBackColor = true;
+            this.CURSO.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.CURSO.Location = new System.Drawing.Point(39, 661);
+            this.CURSO.Margin = new System.Windows.Forms.Padding(4);
+            this.CURSO.Name = "CURSO";
+            this.CURSO.Size = new System.Drawing.Size(212, 23);
+            this.CURSO.TabIndex = 23;
+            this.CURSO.Text = "Curso aqui";
             // 
-            // button4
+            // RPTAQ
             // 
-            this.button4.Location = new System.Drawing.Point(860, 381);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 96);
-            this.button4.TabIndex = 20;
-            this.button4.Text = "Ver Banco de Preguntas";
-            this.button4.UseVisualStyleBackColor = true;
+            this.RPTAQ.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.RPTAQ.Location = new System.Drawing.Point(253, 326);
+            this.RPTAQ.Margin = new System.Windows.Forms.Padding(4);
+            this.RPTAQ.Name = "RPTAQ";
+            this.RPTAQ.Size = new System.Drawing.Size(212, 23);
+            this.RPTAQ.TabIndex = 24;
+            this.RPTAQ.Text = "Respuesta aqui";
             // 
-            // button5
+            // VERDADERO
             // 
-            this.button5.Location = new System.Drawing.Point(635, 22);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(197, 35);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Retroceder";
-            this.button5.UseVisualStyleBackColor = true;
+            this.VERDADERO.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.VERDADERO.Location = new System.Drawing.Point(39, 492);
+            this.VERDADERO.Margin = new System.Windows.Forms.Padding(4);
+            this.VERDADERO.Name = "VERDADERO";
+            this.VERDADERO.Size = new System.Drawing.Size(240, 23);
+            this.VERDADERO.TabIndex = 25;
+            this.VERDADERO.Text = "Escriba aqui la alternativa verdadera";
+            // 
+            // CORRECT
+            // 
+            this.CORRECT.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.CORRECT.Location = new System.Drawing.Point(39, 418);
+            this.CORRECT.Margin = new System.Windows.Forms.Padding(4);
+            this.CORRECT.Name = "CORRECT";
+            this.CORRECT.Size = new System.Drawing.Size(240, 23);
+            this.CORRECT.TabIndex = 26;
+            this.CORRECT.Text = "Escriba aqui la alternativa correcta";
+            // 
+            // UPLOADR
+            // 
+            this.UPLOADR.Location = new System.Drawing.Point(303, 418);
+            this.UPLOADR.Name = "UPLOADR";
+            this.UPLOADR.Size = new System.Drawing.Size(75, 23);
+            this.UPLOADR.TabIndex = 27;
+            this.UPLOADR.Text = "Subir";
+            this.UPLOADR.UseVisualStyleBackColor = true;
+            this.UPLOADR.Click += new System.EventHandler(this.UPLOADR_Click);
+            // 
+            // UPLOADF
+            // 
+            this.UPLOADF.Location = new System.Drawing.Point(303, 527);
+            this.UPLOADF.Name = "UPLOADF";
+            this.UPLOADF.Size = new System.Drawing.Size(75, 23);
+            this.UPLOADF.TabIndex = 29;
+            this.UPLOADF.Text = "Subir";
+            this.UPLOADF.UseVisualStyleBackColor = true;
+            this.UPLOADF.Click += new System.EventHandler(this.UPLOADF_Click);
+            // 
+            // UPLOADT
+            // 
+            this.UPLOADT.Location = new System.Drawing.Point(303, 492);
+            this.UPLOADT.Name = "UPLOADT";
+            this.UPLOADT.Size = new System.Drawing.Size(75, 23);
+            this.UPLOADT.TabIndex = 28;
+            this.UPLOADT.Text = "Subir";
+            this.UPLOADT.UseVisualStyleBackColor = true;
+            this.UPLOADT.Click += new System.EventHandler(this.UPLOADT_Click);
             // 
             // gestionPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.UPLOADF);
+            this.Controls.Add(this.UPLOADT);
+            this.Controls.Add(this.UPLOADR);
+            this.Controls.Add(this.CORRECT);
+            this.Controls.Add(this.VERDADERO);
+            this.Controls.Add(this.RPTAQ);
+            this.Controls.Add(this.CURSO);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.BACK);
+            this.Controls.Add(this.SEE);
+            this.Controls.Add(this.GENERALUPDATE);
+            this.Controls.Add(this.DISPLAYPREGUNTA);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.UPLOAD2);
+            this.Controls.Add(this.dosPAIR);
+            this.Controls.Add(this.unoPAIR);
+            this.Controls.Add(this.FALSO);
+            this.Controls.Add(this.UPLOADW);
+            this.Controls.Add(this.rptaCHOICE);
+            this.Controls.Add(this.REGLONES);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.PAIR);
+            this.Controls.Add(this.TRUEFALSE);
+            this.Controls.Add(this.CHOICE);
+            this.Controls.Add(this.CONCRETA);
+            this.Controls.Add(this.DESARROLLO);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PREGUNTA);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "gestionPreguntas";
             this.Text = "gestionPreguntas";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Load += new System.EventHandler(this.gestionPreguntas_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.REGLONES)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -323,25 +424,33 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox PREGUNTA;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton DESARROLLO;
+        private System.Windows.Forms.RadioButton CONCRETA;
+        private System.Windows.Forms.RadioButton CHOICE;
+        private System.Windows.Forms.RadioButton TRUEFALSE;
+        private System.Windows.Forms.RadioButton PAIR;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.NumericUpDown REGLONES;
+        private System.Windows.Forms.TextBox rptaCHOICE;
+        private System.Windows.Forms.Button UPLOADW;
+        private System.Windows.Forms.TextBox FALSO;
+        private System.Windows.Forms.TextBox unoPAIR;
+        private System.Windows.Forms.TextBox dosPAIR;
+        private System.Windows.Forms.Button UPLOAD2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label DISPLAYPREGUNTA;
+        private System.Windows.Forms.Button GENERALUPDATE;
+        private System.Windows.Forms.Button SEE;
+        private System.Windows.Forms.Button BACK;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox CURSO;
+        private System.Windows.Forms.TextBox RPTAQ;
+        private System.Windows.Forms.TextBox VERDADERO;
+        private System.Windows.Forms.TextBox CORRECT;
+        private System.Windows.Forms.Button UPLOADR;
+        private System.Windows.Forms.Button UPLOADF;
+        private System.Windows.Forms.Button UPLOADT;
     }
 }
