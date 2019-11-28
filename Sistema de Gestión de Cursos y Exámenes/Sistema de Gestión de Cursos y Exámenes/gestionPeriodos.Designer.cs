@@ -93,6 +93,7 @@
             // calendarPeriodo
             // 
             this.calendarPeriodo.Location = new System.Drawing.Point(162, 77);
+            this.calendarPeriodo.MaxSelectionCount = 365;
             this.calendarPeriodo.Name = "calendarPeriodo";
             this.calendarPeriodo.TabIndex = 20;
             // 
@@ -142,6 +143,7 @@
             this.cerrarPeriodoBT.TabIndex = 18;
             this.cerrarPeriodoBT.Text = "Guardar";
             this.cerrarPeriodoBT.UseVisualStyleBackColor = true;
+            this.cerrarPeriodoBT.Click += new System.EventHandler(this.cerrarPeriodoBT_Click);
             // 
             // periodoEliminado
             // 
