@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 {
-    partial class rendirExamen
+    partial class examenesDisponibles
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // rendirExamen
+            // examenesDisponibles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Name = "rendirExamen";
-            this.Text = "rendirExamen";
+            this.Name = "examenesDisponibles";
+            this.Text = "examenesDisponibles";
             this.ResumeLayout(false);
 
         }

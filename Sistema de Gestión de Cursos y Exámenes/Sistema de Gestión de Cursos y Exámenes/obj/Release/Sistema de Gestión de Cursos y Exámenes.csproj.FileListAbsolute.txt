@@ -12,3 +12,7 @@ C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exá
 C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema de Gestión de Cursos y Exámenes.exe
 C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema de Gestión de Cursos y Exámenes.pdb
 C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuDirector.resources
+C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema de Gestión de Cursos y Exámenes.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema_de_Gestión_de_Cursos_y_Exámenes.menuProfesor.resources
+C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema_de_Gestión_de_Cursos_y_Exámenes.examenesDisponibles.resources
+C:\Users\Asus\Desktop\SISITEMA\proyectoSOFT\Sistema de Gestión de Cursos y Exámenes\Sistema de Gestión de Cursos y Exámenes\obj\Release\Sistema_de_Gestión_de_Cursos_y_Exámenes.rendirExamen.resources

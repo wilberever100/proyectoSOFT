@@ -19,6 +19,9 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
         private void login_Load(object sender, EventArgs e)
         {
+            comboBox1.Items.Add("Profesor");
+            comboBox1.Items.Add("Director");
+            comboBox1.Items.Add("Alumno");
 
         }
 
@@ -29,33 +32,62 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string tipo = "director";
-            if(textBox1.Text == "admin" && textBox2.Text == "admin")
+            List<Profesor> Profesores = new List<Profesor>();
+            Profesores = BD.g_PROFESOR_GLOBAL;
+
+            List<string> Directores = new List<string>();
+            Directores.Add("YvanTupac");
+            Directores.Add("Erick");
+            Directores.Add("AlexC");
+
+            string tipo = comboBox1.Text;
+            bool check = false;
+
+            if (tipo == "Director")
             {
-                this.Hide();
-                if (tipo == "profesor")
+                for(int i=0; i<Directores.Capacity-1; i++)
                 {
-                    menuProfesor mP = new menuProfesor();
-                    mP.Show();
+                    if(textBox1.Text==Directores[i] && textBox2.Text == Directores[i])
+                    {
+                        check = true;
+                        this.Hide();
+                        menuDirector mD = new menuDirector();
+                        mD.Show();
+
+                    }
                 }
 
-                else if (tipo == "alumno")
+                if (check == false)
                 {
-                    menuAlumno mA = new menuAlumno();
-                    mA.Show();
+                    MessageBox.Show("Error de autenticacion, verifique usuario y/O contraseña ó es posible que su cuenta este inhabilitada", "Mensaje del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 }
 
-                else if (tipo == "director")
-                {
-                    menuDirector mD = new menuDirector();
-                    mD.Show();
-                }
-                
+
             }
-            else
+
+            else if (tipo == "Profesor")
             {
-                MessageBox.Show("Error de autenticacion, verifique usuario y/O contraseña ó es posible que su cuenta este inhabilitada", "Mensaje del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                for (int i = 0; i < Profesores.Capacity-1; i++)
+                {
+                    if (textBox1.Text == Profesores[i].usuario && textBox2.Text == Profesores[i].contraseña)
+                    {
+                        check = true;
+                        this.Hide();
+                        menuProfesor mP = new menuProfesor();
+                        mP.Show();
+
+                    }
+
+                }
+                if (check == false)
+                {
+                    MessageBox.Show("Error de autenticacion, verifique usuario y/O contraseña ó es posible que su cuenta este inhabilitada", "Mensaje del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
             }
+
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -64,6 +96,11 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

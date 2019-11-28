@@ -43,8 +43,9 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(409, 50);
             this.button6.TabIndex = 14;
-            this.button6.Text = "Gestión de Alumnos";
+            this.button6.Text = "Gestión de Preguntas";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -53,8 +54,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(409, 50);
             this.button5.TabIndex = 13;
-            this.button5.Text = "Gestión de Grupos";
+            this.button5.Text = "Programar Examen";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -63,8 +65,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(409, 50);
             this.button4.TabIndex = 12;
-            this.button4.Text = "Gestión de Periodos";
+            this.button4.Text = "Generación de Examen";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -75,6 +78,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "Cerrar Sesión";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -83,8 +87,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(409, 50);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Gestión de Cursos";
+            this.button2.Text = "Gestión de Examenes";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -93,8 +98,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(408, 52);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Gestión de Profesores";
+            this.button1.Text = "Gestión de Unidades Temáticas";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuProfesor
             // 
