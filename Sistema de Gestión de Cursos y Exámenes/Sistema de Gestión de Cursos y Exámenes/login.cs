@@ -45,7 +45,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
             if (tipo == "Director")
             {
-                for(int i=0; i<Directores.Capacity-1; i++)
+                for(int i=0; i<Directores.Count; i++)
                 {
                     if(textBox1.Text==Directores[i] && textBox2.Text == Directores[i])
                     {
@@ -68,7 +68,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
             else if (tipo == "Profesor")
             {
-                for (int i = 0; i < Profesores.Capacity-1; i++)
+                for (int i = 0; i < Profesores.Count; i++)
                 {
                     if (textBox1.Text == Profesores[i].usuario && textBox2.Text == Profesores[i].contraseña)
                     {
