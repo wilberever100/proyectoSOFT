@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Name = "rendirExamen";
             this.Text = "rendirExamen";
+            this.Load += new System.EventHandler(this.rendirExamen_Load);
             this.ResumeLayout(false);
 
         }
