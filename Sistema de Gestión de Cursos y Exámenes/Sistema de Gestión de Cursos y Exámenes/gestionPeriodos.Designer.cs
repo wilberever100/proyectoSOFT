@@ -55,17 +55,19 @@
             this.panel2.Controls.Add(this.calendarPeriodo);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(48, 80);
+            this.panel2.Location = new System.Drawing.Point(64, 98);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(445, 567);
+            this.panel2.Size = new System.Drawing.Size(593, 698);
             this.panel2.TabIndex = 4;
             // 
             // abrirPeriodoBT
             // 
             this.abrirPeriodoBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.abrirPeriodoBT.Location = new System.Drawing.Point(112, 504);
+            this.abrirPeriodoBT.Location = new System.Drawing.Point(149, 620);
+            this.abrirPeriodoBT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.abrirPeriodoBT.Name = "abrirPeriodoBT";
-            this.abrirPeriodoBT.Size = new System.Drawing.Size(220, 47);
+            this.abrirPeriodoBT.Size = new System.Drawing.Size(293, 58);
             this.abrirPeriodoBT.TabIndex = 13;
             this.abrirPeriodoBT.Text = "Guardar";
             this.abrirPeriodoBT.UseVisualStyleBackColor = true;
@@ -74,9 +76,10 @@
             // nuevoPeriodo
             // 
             this.nuevoPeriodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.nuevoPeriodo.Location = new System.Drawing.Point(21, 284);
+            this.nuevoPeriodo.Location = new System.Drawing.Point(28, 350);
+            this.nuevoPeriodo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nuevoPeriodo.Name = "nuevoPeriodo";
-            this.nuevoPeriodo.Size = new System.Drawing.Size(329, 30);
+            this.nuevoPeriodo.Size = new System.Drawing.Size(437, 36);
             this.nuevoPeriodo.TabIndex = 23;
             this.nuevoPeriodo.TextChanged += new System.EventHandler(this.nuevoPeriodo_TextChanged);
             // 
@@ -86,16 +89,18 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(16, 256);
+            this.label3.Location = new System.Drawing.Point(21, 315);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 25);
+            this.label3.Size = new System.Drawing.Size(103, 29);
             this.label3.TabIndex = 22;
             this.label3.Text = "Nombre";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // calendarPeriodo
             // 
-            this.calendarPeriodo.Location = new System.Drawing.Point(162, 77);
+            this.calendarPeriodo.Location = new System.Drawing.Point(216, 95);
+            this.calendarPeriodo.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
             this.calendarPeriodo.MaxSelectionCount = 365;
             this.calendarPeriodo.Name = "calendarPeriodo";
             this.calendarPeriodo.TabIndex = 20;
@@ -105,9 +110,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(125)))), ((int)(((byte)(218)))));
-            this.label1.Location = new System.Drawing.Point(24, 23);
+            this.label1.Location = new System.Drawing.Point(32, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 31);
+            this.label1.Size = new System.Drawing.Size(216, 39);
             this.label1.TabIndex = 18;
             this.label1.Text = "Abrir Periodo";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -118,9 +124,10 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(16, 77);
+            this.label7.Location = new System.Drawing.Point(21, 95);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 25);
+            this.label7.Size = new System.Drawing.Size(114, 29);
             this.label7.TabIndex = 12;
             this.label7.Text = "Duración";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -132,17 +139,19 @@
             this.panel3.Controls.Add(this.periodoEliminado);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(534, 80);
+            this.panel3.Location = new System.Drawing.Point(712, 98);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(376, 567);
+            this.panel3.Size = new System.Drawing.Size(501, 698);
             this.panel3.TabIndex = 5;
             // 
             // cerrarPeriodoBT
             // 
             this.cerrarPeriodoBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.cerrarPeriodoBT.Location = new System.Drawing.Point(78, 504);
+            this.cerrarPeriodoBT.Location = new System.Drawing.Point(104, 620);
+            this.cerrarPeriodoBT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cerrarPeriodoBT.Name = "cerrarPeriodoBT";
-            this.cerrarPeriodoBT.Size = new System.Drawing.Size(220, 47);
+            this.cerrarPeriodoBT.Size = new System.Drawing.Size(293, 58);
             this.cerrarPeriodoBT.TabIndex = 18;
             this.cerrarPeriodoBT.Text = "Guardar";
             this.cerrarPeriodoBT.UseVisualStyleBackColor = true;
@@ -152,9 +161,10 @@
             // 
             this.periodoEliminado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.periodoEliminado.FormattingEnabled = true;
-            this.periodoEliminado.Location = new System.Drawing.Point(21, 105);
+            this.periodoEliminado.Location = new System.Drawing.Point(28, 129);
+            this.periodoEliminado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.periodoEliminado.Name = "periodoEliminado";
-            this.periodoEliminado.Size = new System.Drawing.Size(329, 33);
+            this.periodoEliminado.Size = new System.Drawing.Size(437, 37);
             this.periodoEliminado.TabIndex = 19;
             this.periodoEliminado.SelectedIndexChanged += new System.EventHandler(this.periodoEliminado_SelectedIndexChanged);
             // 
@@ -164,9 +174,10 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(16, 76);
+            this.label10.Location = new System.Drawing.Point(21, 94);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 25);
+            this.label10.Size = new System.Drawing.Size(103, 29);
             this.label10.TabIndex = 18;
             this.label10.Text = "Nombre";
             // 
@@ -176,9 +187,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(125)))), ((int)(((byte)(218)))));
-            this.label4.Location = new System.Drawing.Point(15, 13);
+            this.label4.Location = new System.Drawing.Point(20, 16);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(211, 31);
+            this.label4.Size = new System.Drawing.Size(268, 39);
             this.label4.TabIndex = 6;
             this.label4.Text = "Eliminar Periodo";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -186,9 +198,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button1.Location = new System.Drawing.Point(478, 8);
+            this.button1.Location = new System.Drawing.Point(637, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.Size = new System.Drawing.Size(293, 58);
             this.button1.TabIndex = 24;
             this.button1.Text = "Retroceder";
             this.button1.UseVisualStyleBackColor = true;
@@ -200,21 +213,23 @@
             this.titulo.BackColor = System.Drawing.Color.Transparent;
             this.titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.titulo.ForeColor = System.Drawing.Color.Black;
-            this.titulo.Location = new System.Drawing.Point(40, 9);
+            this.titulo.Location = new System.Drawing.Point(53, 11);
+            this.titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titulo.Name = "titulo";
-            this.titulo.Size = new System.Drawing.Size(383, 46);
+            this.titulo.Size = new System.Drawing.Size(478, 58);
             this.titulo.TabIndex = 23;
             this.titulo.Text = "Gestión de Periodos";
             // 
             // gestionPeriodos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.titulo);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "gestionPeriodos";
             this.Text = "gestionPeriodos";
             this.panel2.ResumeLayout(false);

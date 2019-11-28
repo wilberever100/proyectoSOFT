@@ -29,7 +29,11 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < BD.GRUPO_GLOBAL.Count; i++)
+            {
+                string nuevo = BD.PERIODO_ACADEMICO_GLOBAL[i].m_periodo;
+                ListaGrupos.Items.Add(nuevo);
+            }
         }
 
         private void periodoEliminado_SelectedIndexChanged(object sender, EventArgs e)
@@ -39,7 +43,11 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < BD.GRUPO_GLOBAL.Count; i++)
+            {
+                string nuevo = BD.PERIODO_ACADEMICO_GLOBAL[i].m_periodo;
+                ListaGrupo.Items.Add(nuevo);
+            }
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,6 +63,7 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         private void abrirPeriodoBT_Click(object sender, EventArgs e)
         {
 
+            MessageBox.Show("Creado exitosamente");
         }
     }
 }
