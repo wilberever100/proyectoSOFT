@@ -34,7 +34,7 @@
             this.mostrarProfes = new System.Windows.Forms.Button();
             this.tablaProfesores = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Datos = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cancelarDatosBT = new System.Windows.Forms.Button();
@@ -50,6 +50,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tablaProfesores)).BeginInit();
             this.panel1.SuspendLayout();
@@ -108,7 +109,7 @@
             this.tablaProfesores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tablaProfesores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
-            this.Column2});
+            this.Datos});
             this.tablaProfesores.Location = new System.Drawing.Point(68, 88);
             this.tablaProfesores.Name = "tablaProfesores";
             this.tablaProfesores.Size = new System.Drawing.Size(382, 154);
@@ -122,15 +123,15 @@
             this.Column1.Name = "Column1";
             this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // Column2
+            // Datos
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Datos";
-            this.Column2.Name = "Column2";
-            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column2.Text = "Datos";
-            this.Column2.UseColumnTextForButtonValue = true;
+            this.Datos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Datos.HeaderText = "Datos";
+            this.Datos.Name = "Datos";
+            this.Datos.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Datos.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Datos.Text = "Datos";
+            this.Datos.UseColumnTextForButtonValue = true;
             // 
             // label1
             // 
@@ -305,11 +306,23 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Datos";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.button1.Location = new System.Drawing.Point(467, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Retroceder";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // gestionProfesores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.titulo);
@@ -347,7 +360,8 @@
         private System.Windows.Forms.Button agregarProfes;
         private System.Windows.Forms.Button mostrarProfes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewButtonColumn Column2;
+        private System.Windows.Forms.DataGridViewButtonColumn Datos;
+        private System.Windows.Forms.Button button1;
     }
     
 }
