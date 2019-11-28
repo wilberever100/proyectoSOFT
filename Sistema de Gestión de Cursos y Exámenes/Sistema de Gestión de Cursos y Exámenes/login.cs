@@ -33,6 +33,10 @@ namespace Sistema_de_Gestión_de_Cursos_y_Exámenes
         private void button1_Click(object sender, EventArgs e)
         {
             List<Profesor> Profesores = new List<Profesor>();
+            Profesor p = new Profesor();
+            p.usuario = "profesor";
+            p.contraseña = "profesor";
+            BD.g_PROFESOR_GLOBAL.Add(p);
             Profesores = BD.g_PROFESOR_GLOBAL;
 
             List<string> Directores = new List<string>();
